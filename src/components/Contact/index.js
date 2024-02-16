@@ -47,16 +47,17 @@ const Contact = () => {
             <div className="contact-icons">
             <ul id="horizontal-list-contact">
               <li>
-                <a className="icons">
+                <span className="icons">
+                  
                 <FontAwesomeIcon icon={faSquareEnvelope} color="#32CD30" />
-                </a>
-                <a className="info"> wesleycartagena23@gmail.com</a>
+                </span>
+                <span className="info"> wesleycartagena23@gmail.com</span>
               </li>
               <li>
-                <a className="icons">
+                <span className="icons">
                 <FontAwesomeIcon icon={faMapLocation} color="#32CD30" />
-                </a>
-                <a className="info"> New York</a>
+                </span>
+                <span className="info"> New York</span>
               </li>
             </ul>
           </div>

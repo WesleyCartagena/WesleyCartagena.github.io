@@ -66,11 +66,15 @@
     #horizontal-list-contact{
       list-style: none;
     }
-    #horizontal-list-contact li{
+    #horizontal-list-contact .icons{
       font-size: 18px;
-      margin: 0 0 0 -30px;
+      margin: 0 0 0 -40px;
+    }
+    #horizontal-list-contact .info{
+      font-size: 18px;
       color: #CC4949;
     }
+    
   }
   @media only screen and (max-width: 320px) {
     top: 15%;
@@ -95,9 +99,13 @@
     #horizontal-list-contact{
       list-style: none;
     }
-    #horizontal-list-contact li{
+    #horizontal-list-contact .icons{
       font-size: 15px;
-      margin: 0 0 0 -30px;
+      margin: 0 0 0 0px;
+      color: #CC4949;
+    }
+    #horizontal-list-contact .info{
+      font-size: 15px;
       color: #CC4949;
     }
   }
@@ -125,9 +133,13 @@
     #horizontal-list-contact{
       list-style: none;
     }
-    #horizontal-list-contact li{
+    #horizontal-list-contact .icons{
       font-size: 15px;
-      margin: 0 0 0 -30px;
+      margin: 0 0 0 0px;
+      color: #CC4949;
+    }
+    #horizontal-list-contact .info{
+      font-size: 15px;
       color: #CC4949;
     }
   }
@@ -155,9 +167,13 @@
     #horizontal-list-contact{
       list-style: none;
     }
-    #horizontal-list-contact li{
+    #horizontal-list-contact .icons{
       font-size: 15px;
-      margin: 0 0 0 -30px;
+      margin: 0 0 0 -35px;
+      color: #CC4949;
+    }
+    #horizontal-list-contact .info{
+      font-size: 15px;
       color: #CC4949;
     }
   }
@@ -185,9 +201,13 @@
     #horizontal-list-contact{
       list-style: none;
     }
-    #horizontal-list-contact li{
+    #horizontal-list-contact .icons{
       font-size: 15px;
       margin: 0 0 0 -30px;
+      color: #CC4949;
+    }
+    #horizontal-list-contact .info{
+      font-size: 15px;
       color: #CC4949;
     }
   }
@@ -215,9 +235,13 @@
     #horizontal-list-contact{
       list-style: none;
     }
-    #horizontal-list-contact li{
+    #horizontal-list-contact .icons{
       font-size: 15px;
       margin: 0 0 0 -30px;
+      color: #CC4949;
+    }
+    #horizontal-list-contact .info{
+      font-size: 15px;
       color: #CC4949;
     }
   }
@@ -245,9 +269,13 @@
     #horizontal-list-contact{
       list-style: none;
     }
-    #horizontal-list-contact li{
+    #horizontal-list-contact .icons{
       font-size: 15px;
       margin: 0 0 0 -30px;
+      color: #CC4949;
+    }
+    #horizontal-list-contact .info{
+      font-size: 15px;
       color: #CC4949;
     }
   }
