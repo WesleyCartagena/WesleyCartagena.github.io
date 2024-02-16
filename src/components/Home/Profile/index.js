@@ -7,7 +7,7 @@ const Profile = () => {
 
     return(
 
-                <img class = "text-zone" src = {profile} id = "pic" alt = "profile"/>
+                <img className = "text-zone" src = {profile} id = "pic" alt = "profile"/>
 
 
     );

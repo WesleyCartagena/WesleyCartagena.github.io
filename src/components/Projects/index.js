@@ -20,8 +20,8 @@ const Projects = () => {
     }, []);
     return(
     
-        <section class="container projects-page">
-            <div class='text-zone'>
+        <section className="container projects-page">
+            <div className='text-zone'>
                 <h1>
                     <AnimatedLetters letterClass={letterClass}
                         strArray={aboutArray} 
@@ -29,8 +29,8 @@ const Projects = () => {
                     />
                 </h1>
             </div>
-            <section class="container Projects">
-                <div class='projects' id='project1'>
+            <section className="container Projects">
+                <div className='projects' id='project1'>
                     <img src= {GuardiansCentral} alt="portfolio"></img>
                     <h1>Guardians Central</h1>
                     <h2>Destiny 2 website built using React.js, Express.js, and Node.js</h2>
@@ -58,7 +58,7 @@ const Projects = () => {
                         rel="noreferrer" className="flat-button2">Source Code</a>
                     </div>
                 </div>
-                <div class='projects' id='project4'>
+                <div className='projects' id='project4'>
                     <img src= {pokeshop} alt="portfolio" id="pokeshop"></img>
                     <h1 id="pokeh1">Pokemon Eccomerce Shop</h1>
                     <h2>Pokemon App built using React and PokeAPI</h2>
@@ -86,7 +86,7 @@ const Projects = () => {
                         rel="noreferrer" className="flat-button2">Source Code</a>
                     </div>
                 </div>   
-                <div class='projects' id='project5'>
+                <div className='projects' id='project5'>
                 <img src= {weatherapp} alt="weatherapp" id="weather" ></img>
                     <h1>Weather App</h1>
                     <h2>Weather App built using React and Weather API</h2>
@@ -114,7 +114,7 @@ const Projects = () => {
                         rel="noreferrer" className="flat-button2">Source Code</a>
                     </div>
                 </div>
-                <div class='projects' id='project2'>
+                <div className='projects' id='project2'>
                     <img src= {keylogger} alt="portfolio" id="keylogger"></img>
                     <h1>Keylogger</h1>
                     <h2>Keylogging script written in Python</h2>
@@ -130,7 +130,7 @@ const Projects = () => {
                         </li>
                     </ul>
                 </div> 
-                <div class='projects' id='project3'>
+                <div className='projects' id='project3'>
                     <img src= {packetsniffer} alt="portfolio" id="packetsniffer"></img>
                     <h1>Packet Sniffer</h1>
                     <h2>Packet Sniffer written in Python</h2>

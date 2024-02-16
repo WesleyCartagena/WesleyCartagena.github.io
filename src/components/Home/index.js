@@ -18,8 +18,8 @@ const Home = () => {
 
     return(
         
-        <section class="container home-page">
-            <div class="text-zone" id="text">
+        <section className="container home-page">
+            <div className="text-zone" id="text">
                 <h1>
                 <span className={letterClass}>Hi,</span>
                 <br/>
@@ -35,7 +35,7 @@ const Home = () => {
                 <h2>Developer / HTML / CSS /  JavaScript / React JS / Python / Shopify Liquid</h2>
                 <Link to="contact" className="flat-button">Contact Me</Link>
             </div>
-            <img class = "text-zone" src = {profile} id = "pic" alt = "profile"/>
+            <img className = "text-zone" src = {profile} id = "pic" alt = "profile"/>
         </section>
         
     );

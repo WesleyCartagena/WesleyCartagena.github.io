@@ -29,7 +29,7 @@ const Contact = () => {
     };
     return(
         <section className ='container contact-page'>
-        <div class="form-container">
+        <div className="form-container">
           <form ref={form} onSubmit={sendEmail} className="contact-form">
             <div className='contact-text-zone'>
               <span>
@@ -39,24 +39,24 @@ const Contact = () => {
                />
               </span>             
             </div> 
-            <input type="text"  class="feedback-input" placeholder='Full Name' name='user_name' required/>
-            <input type="email"  class="feedback-input" placeholder='email' name='user_email' required/>
-            <input type="text" class="feedback-input" placeholder='subject' name='subject' required/>
-            <textarea class="feedback-input" name="message" cols="30" rows="10"></textarea>
+            <input type="text"  className="feedback-input" placeholder='Full Name' name='user_name' required/>
+            <input type="email"  className="feedback-input" placeholder='email' name='user_email' required/>
+            <input type="text" className="feedback-input" placeholder='subject' name='subject' required/>
+            <textarea className="feedback-input" name="message" cols="30" rows="10"></textarea>
             <button type="submit"className="btn">Send Message</button>
-            <div class="contact-icons">
+            <div className="contact-icons">
             <ul id="horizontal-list-contact">
               <li>
-                <a class="icons">
+                <a className="icons">
                 <FontAwesomeIcon icon={faSquareEnvelope} color="#32CD30" />
                 </a>
-                <a class="info"> wesleycartagena23@gmail.com</a>
+                <a className="info"> wesleycartagena23@gmail.com</a>
               </li>
               <li>
-                <a class="icons">
+                <a className="icons">
                 <FontAwesomeIcon icon={faMapLocation} color="#32CD30" />
                 </a>
-                <a class="info"> New York</a>
+                <a className="info"> New York</a>
               </li>
             </ul>
           </div>

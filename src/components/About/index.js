@@ -15,8 +15,8 @@ const About = () => {
         return () => clearTimeout()
     }, []);
     return(
-        <section class ='container about-page'>
-                <div class='about' id="about-zone">
+        <section className ='container about-page'>
+                <div className='about' id="about-zone">
                     <h1>
                         <AnimatedLetters letterClass={letterClass}
                             strArray={aboutArray} 
@@ -29,7 +29,7 @@ const About = () => {
                     <p>Today I work as an IT Developer using code to help drive business solutions. </p>
                 
                 </div>
-                <div class="about" id="tech-stack">
+                <div className="about" id="tech-stack">
                     <h1>
                         <AnimatedLetters letterClass={letterClass}
                             strArray={techStackArray} 
@@ -38,35 +38,35 @@ const About = () => {
                     </h1>
   
     
-                        <div class="icons">
+                        <div className="icons">
                         <FontAwesomeIcon icon={faHtml5} color="#FF5733" />
                         </div>
   
-                        <div class="icons">
+                        <div className="icons">
                         <FontAwesomeIcon icon={faCss3} color="#264de4" />
                         </div>
 
-                        <div class="icons">
+                        <div className="icons">
                         <FontAwesomeIcon icon={faJsSquare} color="#F0DB4F" />
                         </div>
              
-                        <div class="icons">
+                        <div className="icons">
                         <FontAwesomeIcon icon={faReact} color="#61DBFB" />
                         </div>
             
-                        <div class="icons">
+                        <div className="icons">
                         <FontAwesomeIcon icon={faPython} color="#306998" />
                         </div>
               
-                        <div class="icons">
+                        <div className="icons">
                         <FontAwesomeIcon icon={faShopify} color="#64943E" />
                         </div>
            
-                        <div class="icons">
+                        <div className="icons">
                         <FontAwesomeIcon icon={faGit} color="#FF5733" />
                         </div>
               
-                        <div class="icons">
+                        <div className="icons">
                         <FontAwesomeIcon icon={faJira} color="#0044FF" />
                         </div>
     

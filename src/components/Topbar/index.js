@@ -14,20 +14,20 @@ const Topbar = () => {
                 <img className="sub-logo" src={LogoSubtitle} alt="Cartagena"/>
             </Link>
             <nav>
-                <NavLink class="nav-links"  exact="true" activeclassname="active" id="home-link" to="/">
+                <NavLink className="nav-links"  exact="true" activeclassname="active" id="home-link" to="/">
                     <FontAwesomeIcon icon={faHome} color="#4d4d4e"/>
                 </NavLink>
-                <NavLink class="nav-links"  exact="true" activeclassname="active" id="about-link" to="about">
+                <NavLink className="nav-links"  exact="true" activeclassname="active" id="about-link" to="about">
                     <FontAwesomeIcon icon={faUser} color="#4d4d4e"/>
                 </NavLink>
-                <NavLink class="nav-links"  exact="true" activeclassname="active" id="contact-link" to="contact">
+                <NavLink className="nav-links"  exact="true" activeclassname="active" id="contact-link" to="contact">
                     <FontAwesomeIcon icon={faEnvelope} color="#4d4d4e"/>
                 </NavLink>
-                <NavLink class="nav-links" exact="true" activeclassname="active" id="project-link" to="Projects">
+                <NavLink className="nav-links" exact="true" activeclassname="active" id="project-link" to="Projects">
                     <FontAwesomeIcon icon={faDiagramProject} color="#4d4d4e"/>
                 </NavLink>
             </nav>
-            <div class="Social-List">
+            <div className="Social-List">
             <ul id="horizontal-list">
                 <li>
                     <a id="linkedin"
