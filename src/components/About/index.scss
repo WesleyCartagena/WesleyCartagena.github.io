@@ -1,0 +1,206 @@
+.container.about-page{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  max-width: 100% !important;
+  overflow-x: hidden !important;
+  #about-zone{
+    position: relative;
+    top: 5%;
+    width: 30%;
+    left: 1%;
+    min-width: 475px;
+    max-height: 90%;
+  }
+  #tech-stack{
+    top: 5%;
+    margin-left: 1%;
+    max-height: 90%;
+    position: relative;
+    text-align: center;
+  }
+  h1{
+    color: white;
+    font-size: 60px;
+    margin: 0;
+    font-family: 'Coolvetica';
+    font-weight: 400;
+  }
+  p{
+    font-size: 18px;
+    color: white;
+    text-align: justify;
+    font-family: sans-serif;
+    font-weight: 300px;
+    animation: pulse 2s;
+    &:nth-of-type(1){
+      animation-delay: 1s;
+    }
+    &:nth-of-type(2){
+      animation-delay: 1.1s;
+    }
+    &:nth-of-type(3){
+      animation-delay: 1.2s;
+    }
+  }
+  .icons{
+    display: inline;
+    position: relative;
+    margin-right: 4%;
+    font-size: 40px;
+    left: 15px;
+
+  }
+}
+
+@media only screen and (max-height: 850px){
+  .container.about-page{
+    top: 5%;
+
+    h1{
+      font-size: 53px;
+    }
+    p{
+      font-size: 15px;
+    }
+    .icons{
+      left: 10px;
+      font-size: 30px;
+    }
+  }
+}
+
+@media only screen and (max-width: 350px){
+  .container.about-page{
+    justify-content: center;
+  #about-zone{
+    min-width: 430px;
+    position: relative;
+    text-align: center;
+    top: 10%;
+  }
+  #tech-stack{
+    top: 40%;
+    text-align: center;
+  }
+  #tech-stack h1{
+    text-align: center;
+  }
+  h1{
+    font-size: 38px;
+  }
+  p{
+    margin-left: 19%;
+    width: 60%;
+    font-size: 15px;
+  }
+  .icons{
+    left: 10px;
+    font-size: 25px;
+  }
+}
+}
+@media only screen and (min-width: 351px) and (max-width: 749px) {
+  .container.about-page{
+    justify-content: center;
+  #about-zone{
+    min-width: 430px;
+    position: relative;
+    text-align: center;
+    top: 10%;
+  }
+  #tech-stack{
+    top: 12%;
+    text-align: center;
+  }
+  #tech-stack h1{
+    text-align: center;
+  }
+  h1{
+    font-size: 38px;
+  }
+  p{
+    margin-left: 9%;
+    width: 80%;
+    font-size: 15px;
+  }
+  .icons{
+    left: 10px;
+    font-size: 25px;
+  }
+}
+}
+
+@media only screen and (min-width: 750px) and (max-width: 919px){
+  .container.about-page{
+    top: 20%;
+    #tech-stack{
+      position: absolute;
+      right: 5%;
+    }
+    h1{
+      font-size: 30px;
+    }
+    p{
+      font-size: 15px;
+    }
+    .icons{
+      left: 10px;
+      font-size: 20px;
+    }
+  }
+}
+
+@media only screen and (min-width: 920px) and (max-width: 999px){
+  .container.about-page{
+    top: 15%;
+    #tech-stack{
+      position: absolute;
+      right: 5%;
+    }
+    h1{
+      font-size: 47px;
+    }
+    p{
+      font-size: 15px;
+    }
+    .icons{
+      left: 10px;
+      font-size: 30px;
+    }
+  }
+}
+@media only screen and (min-width:1000px) and (max-width: 1500px) {
+  .container.about-page{
+    top: 13%;
+    #tech-stack{
+      position: absolute;
+      right: 5%;
+    }
+  }
+}
+
+@media only screen and (min-width: 1501px) {
+  .container.about-page{
+    top: 20%;
+    #tech-stack{
+      position: absolute;
+      right: 5%;
+    }
+  }
+}
+
+@media only screen and (max-height: 589px){
+  .top-tags{
+    display: none;
+}
+.tags{
+  display: none;
+}
+
+.bottom-tag-html{
+  display: none;
+}
+}
+
+

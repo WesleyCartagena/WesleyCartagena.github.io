@@ -4,13 +4,32 @@
   "private": true,
   "homepage": "http://wcartagenaasc.github.io",
   "dependencies": {
+    "@emailjs/browser": "^3.6.2",
+    "@fortawesome/free-brands-svg-icons": "^6.1.1",
+    "@fortawesome/free-solid-svg-icons": "^6.1.1",
+    "animate.css": "^4.1.1",
+    "coolvetica": "^1.0.0",
+    "cors": "^2.8.5",
+    "cra-template": "1.1.3",
+    "express": "^4.18.1",
+    "gsap": "^3.10.3",
+    "loaders.css": "^0.1.2",
+    "nodejs-nodemailer-outlook": "^1.2.4",
+    "nodemailer": "^6.7.7",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "gh-pages": "^6.1.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-leaflet": "^4.0.0",
+    "react-loaders": "^3.0.1",
+    "react-router-dom": "^6.3.0",
     "react-scripts": "5.0.1",
+    "react-tsparticles": "^2.1.3",
+    "sass": "^1.50.1",
+    "tsparticles": "^2.1.3",
+    "tsparticles-slim": "^2.1.3",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -38,5 +57,11 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.1.1",
+    "@fortawesome/react-fontawesome": "^0.1.18",
+    "gh-pages": "^3.2.3",
+    "web-vitals": "^2.1.4"
   }
 }
