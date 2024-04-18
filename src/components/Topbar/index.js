@@ -41,7 +41,7 @@ const Topbar = () => {
                 
                 <li>
                     <a id="github"
-                        href="https://github.com/wcartagenaasc"
+                        href="https://github.com/wesleycartagena"
                         target="_blank"
                         rel="noreferrer"
                     >

@@ -47,13 +47,13 @@ const Projects = () => {
                     </ul>
                     <div>
                         <a                         
-                        href="https://wcartagenaasc.github.io/guardians-central/"
+                        href="https://wesleycartagena.github.io/guardians-central/"
                         target="_blank"
                         rel="noreferrer" className="flat-button">Preview</a>
                     </div>
                     <div>                    
                         <a                         
-                        href="https://github.com/WCartagenaASC/wcartagenaasc.github.io"
+                        href="https://github.com/wesleycartagena/wesleycartagena.github.io"
                         target="_blank"
                         rel="noreferrer" className="flat-button2">Source Code</a>
                     </div>
@@ -75,13 +75,13 @@ const Projects = () => {
                     </ul>
                     <div>
                         <a                         
-                        href="https://wcartagenaasc.github.io/wesley-pokeshop/"
+                        href="https://wesleycartagena.github.io/wesley-pokeshop/"
                         target="_blank"
                         rel="noreferrer" className="flat-button">Preview</a>
                     </div>
                     <div>                    
                         <a                         
-                        href="https://github.com/WCartagenaASC/wesley-pokeshop"
+                        href="https://github.com/wesleycartagena/wesley-pokeshop"
                         target="_blank"
                         rel="noreferrer" className="flat-button2">Source Code</a>
                     </div>
@@ -103,13 +103,13 @@ const Projects = () => {
                     </ul>
                     <div>
                         <a                         
-                        href="https://wcartagenaasc.github.io/wesley-weather-app/"
+                        href="https://wesleycartagena.github.io/wesley-weather-app/"
                         target="_blank"
                         rel="noreferrer" className="flat-button">Preview</a>
                     </div>
                     <div>                    
                         <a                         
-                        href="https://github.com/WCartagenaASC/wesley-weather-app"
+                        href="https://github.com/wesleycartagena/wesley-weather-app"
                         target="_blank"
                         rel="noreferrer" className="flat-button2">Source Code</a>
                     </div>
