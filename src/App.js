@@ -5,7 +5,6 @@ import Contact from './components/Contact'
 import Layout from './components/Layout'
 import Projects from './components/Projects'
 import './App.scss'
-//import Particles from './components/Backgrounds/Particles';
 
 function App() {
   return (
@@ -18,7 +17,6 @@ function App() {
           <Route path="/Projects" element={<Projects/>}/>
         </Route>
       </Routes>
-    {/*<Particles id="tsparticles" /> */} 
     </>
   )
 }
