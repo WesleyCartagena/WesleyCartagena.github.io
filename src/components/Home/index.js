@@ -33,7 +33,7 @@ const Home = () => {
                 idx={22}/>
                 </h1>
                 <h2>Developer / HTML / CSS /  JavaScript / React JS / Python / Shopify Liquid</h2>
-                <Link to="contact" className="flat-button">Contact Me</Link>
+                <Link to="projects" className="flat-button">Checkout My Projects</Link>
             </div>
             <img className = "text-zone" src = {profile} id = "pic" alt = "profile"/>
         </section>
