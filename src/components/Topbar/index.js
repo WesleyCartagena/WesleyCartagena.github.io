@@ -3,7 +3,7 @@ import LogoW from '../../assets/images/W.png'
 import LogoSubtitle from '../../assets/images/cartagena.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons'
-import { faEnvelope, faHome, faUser,faDiagramProject} from '@fortawesome/free-solid-svg-icons'
+import { faHome, faUser,faDiagramProject} from '@fortawesome/free-solid-svg-icons'
 import { Link, NavLink } from 'react-router-dom'
 
 const Topbar = () => {
