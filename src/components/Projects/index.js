@@ -47,7 +47,7 @@ const Projects = () => {
                     </ul>
                     <div>
                         <a                         
-                        href="https://wesleycartagena.github.io/guardians-central/"
+                        href="https://guardianscentral.gg"
                         target="_blank"
                         rel="noreferrer" className="flat-button">Preview</a>
                     </div>
