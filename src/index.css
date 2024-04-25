@@ -1,6 +1,9 @@
 html {
   font-size: 62.5%;
-  overflow-y: scroll;
+  overflow: hidden;
+  ::-webkit-scrollbar { display: none; }
+
+
 }
 
 body {
