@@ -20,6 +20,9 @@ const Topbar = () => {
                 <NavLink className="nav-links"  exact="true" activeclassname="active" id="about-link" to="about">
                     <FontAwesomeIcon icon={faUser} color="#4d4d4e"/>
                 </NavLink>
+                <NavLink className="nav-links"  exact="true" activeclassname="active" id="about-link" to="aboutTest">
+                    <FontAwesomeIcon icon={faUser} color="#4d4d4e"/>
+                </NavLink>
                 {/*<NavLink className="nav-links"  exact="true" activeclassname="active" id="contact-link" to="contact">
                     <FontAwesomeIcon icon={faEnvelope} color="#4d4d4e"/>
                 </NavLink>*/}
