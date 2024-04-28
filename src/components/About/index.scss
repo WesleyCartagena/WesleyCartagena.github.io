@@ -1,25 +1,5 @@
-.container.about-page{
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  max-width: 100% !important;
-  overflow-x: hidden !important;
-  overflow-y: overlay;
-  #about-zone{
-    position: relative;
-    top: 5%;
-    width: 30%;
-    left: 1%;
-    min-width: 475px;
-    max-height: 90%;
-  }
-  #tech-stack{
-    top: 5%;
-    margin-left: 1%;
-    max-height: 90%;
-    position: relative;
-    text-align: center;
-  }
+.about-page-container{
+  padding-top: 100px;
   h1{
     color: white;
     font-size: 60px;
@@ -47,161 +27,49 @@
   .icons{
     display: inline;
     position: relative;
-    margin-right: 4%;
+    margin-right: 2%;
     font-size: 40px;
     left: 15px;
 
   }
-}
-
-@media only screen and (max-height: 850px){
-  .container.about-page{
-    top: 5%;
-
+  /* Extra small devices (phones, 600px and down) */
+  @media only screen and (max-width: 600px) {
+    padding-top: 25px;
     h1{
-      font-size: 53px;
+      font-size: 40px;
     }
     p{
       font-size: 15px;
     }
-    .icons{
-      left: 10px;
-      font-size: 30px;
+    .about-text{
+      width: 90%;
     }
-  }
-}
-
-@media only screen and (max-width: 350px){
-  .container.about-page{
-    justify-content: center;
-  #about-zone{
-    min-width: 430px;
-    position: relative;
-    text-align: center;
-    top: 10%;
-  }
-  #tech-stack{
-    top: 40%;
-    text-align: center;
-  }
-  #tech-stack h1{
-    text-align: center;
-  }
-  h1{
-    font-size: 38px;
-  }
-  p{
-    margin-left: 19%;
-    width: 60%;
-    font-size: 15px;
-  }
-  .icons{
-    left: 10px;
-    font-size: 25px;
-  }
-}
-}
-@media only screen and (min-width: 351px) and (max-width: 749px) {
-  .container.about-page{
-    justify-content: center;
-  #about-zone{
-    min-width: 430px;
-    position: relative;
-    text-align: center;
-    top: 10%;
-  }
-  #tech-stack{
-    top: 12%;
-    text-align: center;
-  }
-  #tech-stack h1{
-    text-align: center;
-  }
-  h1{
-    font-size: 38px;
-  }
-  p{
-    margin-left: 9%;
-    width: 80%;
-    font-size: 15px;
-  }
-  .icons{
-    left: 10px;
-    font-size: 25px;
-  }
-}
-}
-
-@media only screen and (min-width: 750px) and (max-width: 919px){
-  .container.about-page{
-    top: 20%;
-    #tech-stack{
-      position: absolute;
-      right: 5%;
-    }
-    h1{
-      font-size: 30px;
-    }
-    p{
-      font-size: 15px;
+    .about-tech-stack{
+      width: 100%;
     }
     .icons{
-      left: 10px;
-      font-size: 20px;
+      left: 0px;
+  
+    }
+  }
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) {
+    .about-text{
+      width: 75%;
+    }
+  }
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+
+  }
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+
+  }
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+    .about-text{
+      width: 50%;
     }
   }
 }
-
-@media only screen and (min-width: 920px) and (max-width: 999px){
-  .container.about-page{
-    top: 15%;
-    #tech-stack{
-      position: absolute;
-      right: 5%;
-    }
-    h1{
-      font-size: 47px;
-    }
-    p{
-      font-size: 15px;
-    }
-    .icons{
-      left: 10px;
-      font-size: 30px;
-    }
-  }
-}
-@media only screen and (min-width:1000px) and (max-width: 1500px) {
-  .container.about-page{
-    top: 13%;
-    #tech-stack{
-      position: absolute;
-      right: 5%;
-    }
-  }
-}
-
-@media only screen and (min-width: 1501px) {
-  .container.about-page{
-    top: 20%;
-    #tech-stack{
-      position: absolute;
-      right: 5%;
-    }
-  }
-}
-
-@media only screen and (max-height: 589px){
-  .top-tags{
-    display: none;
-}
-.tags{
-  display: none;
-}
-
-.bottom-tag-html{
-  display: none;
-}
-}
-
-
