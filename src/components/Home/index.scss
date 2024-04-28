@@ -1,4 +1,156 @@
-.container.home-page{
+.home-page-container{
+  .text-zone{
+  
+  }
+  h1{
+    color: white;
+    font-size: 53px;
+    margin: 0;
+    font-family: 'Coolvetica';
+    font-weight: 400;
+  }
+  h2{
+    color: #8d8d8d;
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 11px;
+    font-family: sans-serif;
+    letter-spacing: 3px;
+    animation: fadeIn 1s 1.8s backwards;
+  }
+  .flat-button {
+    color: #32CD30;
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 4px;
+    font-family: sans-serif;
+    text-decoration: none;
+    padding: 10px 18px;
+    border: 1px solid #32CD30;
+    margin-top: 25px;
+    float: left;
+    animation: fadeInAnimation 1s 1.8s backwards;
+    white-space: nowrap;
+
+    &:hover {
+      background: #32CD30;
+      color: #333;
+    }
+  }
+  /* Extra small devices (phones, 600px and down) */
+  @media only screen and (max-width: 600px) {}
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) {}
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+    #profilePic{
+      max-width: 250px;
+      margin-right: 20px;
+    }
+    #text{
+      margin-left: 20px;
+    }
+    h1{
+      font-size: 40px;
+    }
+    h2{
+      font-size: 10px;
+    }
+  }
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+    #profilePic{
+      max-width: 300px;
+      margin-right: 50px;
+    }
+    #text{
+      margin-left: 50px;
+    }
+  }
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+    #profilePic{
+      max-width: 400px;
+      margin-right: 50px;
+    }
+    #text{
+      margin-left: 50px;
+    }
+  }
+}
+
+.home-page-container-mobile{
+  display: flex;
+  flex-direction: column; /* Stack items vertically for mobile */
+  align-items: center; /* Center items horizontally */
+  padding: 20px; /* Add padding to create space around the items */
+
+  .text-zone {
+    margin-bottom: 20px; /* Add margin below the text zone */
+    text-align: center; /* Center text horizontally */
+  }
+
+  #profilePic {
+    max-width: 250px; /* Adjust maximum width for the image */
+  }
+  h1{
+    color: white;
+    font-size: 30px;
+    font-family: 'Coolvetica';
+    font-weight: 400;
+  }
+  h2{
+    color: #8d8d8d;
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 11px;
+    font-family: sans-serif;
+    letter-spacing: 3px;
+    animation: fadeIn 1s 1.8s backwards;
+  }
+  .flat-button {
+    color: #32CD30;
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 4px;
+    font-family: sans-serif;
+    text-decoration: none;
+    padding: 10px 18px;
+    border: 1px solid #32CD30;
+    margin-top: 25px;
+    float: left;
+    animation: fadeInAnimation 1s 1.8s backwards;
+    white-space: nowrap;
+
+    &:hover {
+      background: #32CD30;
+      color: #333;
+    }
+  }
+  #profilePic{
+    padding-top: 50px;
+  }
+  @media only screen and (max-width: 600px) {
+
+  }
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) {}
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+
+  }
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+
+  }
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+
+  }
+}
+
+
+/*.container.home-page{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -222,4 +374,4 @@
 
     }
   }
-}
+}*/

@@ -1,6 +1,7 @@
 .wc-navbar{
     background: #181818;
     height: 60px;
+    z-index: 1000;
 }
 
 
@@ -27,6 +28,9 @@
 }
 
 .navbar-middle-item-text:hover {
+  color: #32CD30 !important;
+}
+a.active{
   color: #32CD30 !important;
 }
 #linkedin{
