@@ -36,7 +36,7 @@ const Home = () => {
                     <div>
                         <img className="" src={profile} id="profilePic" alt="profile" />
                     </div>
-                    <div className="" id="text">
+                    <div className="text-zone" id="text">
                         <h1>
                             <span className={letterClass}>Hi,</span>
                             <br />

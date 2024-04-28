@@ -70,11 +70,14 @@
   /* Extra large devices (large laptops and desktops, 1200px and up) */
   @media only screen and (min-width: 1200px) {
     #profilePic{
-      max-width: 400px;
+      max-width: 376px;
       margin-right: 50px;
     }
     #text{
       margin-left: 50px;
+    }
+    h1{
+      font-size: 50px;
     }
   }
 }
