@@ -1,348 +1,58 @@
-.nav-bar {
+.wc-navbar{
     background: #181818;
-    height: 20px;
-    width: 100%;
-    position: absolute;
-    top: 0;
-    z-index: 3;
-    min-height: 60px;
-
-
-      
-  img{
-    position: relative;
-    padding-left: 10px;
-
-  }
-    .letter-logo{
-      padding-top: 10px;
-      padding-left: 35px;
-      width: 24px;
-      z-index: 0;
-    }
-    .sub-logo{
-      display:block;
-      width: 75px;
-      z-index: 1;
-    }
-    nav{
-      display: block;
-      text-align: center;
-      width: 100%;
-      #home-link{
-        padding-right: 25px;
-        bottom: 45px;
-        font-size: 35px;
-      }
-      #about-link{
-        padding-right: 25px;
-        bottom: 45px;
-        font-size: 35px;
-      }
-      #contact-link{
-        padding-right: 25px;
-        bottom: 45px;
-        font-size: 35px;
-      }
-      #project-link{
-        padding-right: 25px;
-        bottom: 45px;
-        font-size: 35px;
-      }
-      a {
-        font-size: 22px;
-        color: #4d4d4e;
-        display: inline-block;
-        line-height: 51px;
-        height: 51px;
-        position: relative;
-        text-decoration: none;
-    
-        i {
-          transition: all 0.3s ease-out;
-        }
-    
-        &:hover {
-          color: #32CD30;
-    
-          svg {
-            opacity: 0;
-          }
-    
-          &:after {
-            opacity: 1;
-          }
-        }
-    
-        &:after {
-          content: '';
-          font-size: 9px;
-          letter-spacing: 2px;
-          position: absolute;
-          bottom: 0;
-          display: block;
-          width: 100%;
-          opacity: 0;
-          text-align: left;
-          justify-content: left;
-          -webkit-transition: all 0.3s ease-out;
-          transition: all 0.3s ease-out;
-        }
-    
-      }
-      #home-link {
-        &:after {
-          content: 'HOME';
-          left: 10%;
-        }
-      }   
-      #about-link {
-        &:after {
-          content: 'ABOUT';
-          right: 5%;
-        }
-      }
-    
-      #contact-link {
-        &:after {
-          content: 'CONTACT';
-          right: 15%;
-        }
-      }
-      #project-link {
-        &:after {
-          content: 'PROJECTS';
-          right: 20%;
-        }
-      }
-      a.active {
-        svg {
-          color: #32CD30;
-        }
-      }
-    }
-    ul#horizontal-list {
-      list-style: none;
-      text-align: right;
-      position:absolute;
-      top: 0;
-      right: 0;
-
-    }
-    ul#horizontal-list li{
-      display: inline;
-      a{
-        padding-right: 25px;
-        font-size: 35px;
-        line-height: 16px;
-        color: #4d4d4e;
-        &:hover svg{
-          color: #32CD30;
-        }
-      }
-      #linkedin{
-        &:hover svg{
-          color:  #0077b5;
-        }
-      }
-      #github{
-        &:hover svg{
-          color:  #4183C4;
-        }
-      }
-      #resume{
-        &:hover svg{
-          color:  #BD2C00;
-        }
-      }
-
-    }
-
-    @media only screen and (max-width: 320px) {
-      nav{
-        a{
-        &:after {
-          font-size: 6px;
-        }
-      }
-        #home-link{
-          padding-right: 15px;
-          bottom: 43px;
-          font-size: 25px;
-        }
-        #about-link{
-          padding-right: 15px;
-          bottom: 43px;
-          font-size: 25px;
-        }
-        // #contact-link{
-        //   padding-right: 15px;
-        //   bottom: 43px;
-        //   font-size: 25px;
-
-        // }
-        #project-link{
-          padding-right: 15px;
-          bottom: 43px;
-          font-size: 25px;
-        }
-      }
-      .letter-logo{
-        padding-top: 15px;
-        padding-left: 25px;
-        width: 15px;
-
-      }
-      .sub-logo{
-        width: 46px;
-
-      }
-      ul#horizontal-list {
-        list-style: none;
-        text-align: right;
-        position:absolute;
-        top: 0;
-        right: 0;
-  
-      }
-      ul#horizontal-list li{
-        display: inline;
-        a{
-          padding-right: 10px;
-          font-size: 25px;
-        }
-  
-  
-      }
-    }
-    @media only screen and (min-width: 321px) and (max-width: 399px) {
-      nav{
-        a{
-        &:after {
-          font-size: 6px;
-        }
-      }
-        #home-link{
-          padding-right: 15px;
-          bottom: 40px;
-          font-size: 30px;
-
-
-        }
-        #about-link{
-          padding-right: 15px;
-          bottom: 40px;
-          font-size: 30px;
-
-
-        }
-        // #contact-link{
-        //   padding-right: 15px;
-        //   bottom: 40px;
-        //   font-size: 30px;
-
-
-        // }
-        #project-link{
-          padding-right: 15px;
-          bottom: 40px;
-          font-size: 30px;
-
-        }
-      }
-      .letter-logo{
-        padding-top: 15px;
-        padding-left: 25px;
-        width: 15px;
-
-      }
-      .sub-logo{
-        width: 46px;
-
-      }
-      ul#horizontal-list {
-        list-style: none;
-        text-align: right;
-        position:absolute;
-        top: 0;
-        right: 0;
-  
-      }
-      ul#horizontal-list li{
-        display: inline;
-        a{
-          padding-right: 10px;
-          font-size: 30px;
-        }
-  
-  
-      }
-    }
-    @media only screen and (min-width: 400px) and (max-width: 600px) {
-      nav{
-        a{
-        &:after {
-          font-size: 6.5px;
-        }
-      }
-        #home-link{
-          padding-right: 15px;
-          bottom: 40px;
-          font-size: 30px;
-
-
-        }
-        #about-link{
-          padding-right: 15px;
-          bottom: 40px;
-          font-size: 30px;
-
-
-        }
-        // #contact-link{
-        //   padding-right: 15px;
-        //   bottom: 40px;
-        //   font-size: 30px;
-        //   right: 15px;
-
-        // }
-        #project-link{
-          padding-right: 15px;
-          bottom: 40px;
-          font-size: 30px;
-   
-        }
-      }
-      .letter-logo{
-        width: 19px;
-
-      }
-      .sub-logo{
-        width: 60px;
-
-      }
-      ul#horizontal-list {
-        list-style: none;
-        text-align: right;
-        position:absolute;
-        top: 0;
-        right: 0;
-  
-      }
-      ul#horizontal-list li{
-        display: inline;
-        a{
-          padding-right: 15px;
-          font-size: 30px;
-        }
-  
-  
-      }
-    }
+    height: 60px;
 }
 
 
+.logo{
+  position: relative;
+  padding-left: 10px;
 
+}
+.letter-logo{
+  margin-left: 25px;
+  z-index: 0;
+}
+.sub-logo{
+  display:block;
+  width: 75px;
+  z-index: 1;
+}
+.navbar-middle-item{
+  font-size: 20px;
+}
 
+.navbar-middle-item-text {
+  color: whitesmoke !important;
+}
 
-  
+.navbar-middle-item-text:hover {
+  color: #32CD30 !important;
+}
+#linkedin{
+  font-size: 35px;
+  &:hover svg{
+    color:  #0077b5;
+  }
+}
+#github{
+  font-size: 35px;
+  &:hover svg{
+    color:  #4183C4;
+  }
+}
+#basic-navbar-nav{
+  background: #181818;
+}
+@media only screen and (max-width: 575px) {
+  .navbar-end-icons{
+    color: whitesmoke !important;
+    
+  }
+  #linkedin{
+    font-size: 20px;
+  }
+  #github{
+    font-size: 20px;
+  }
+}
