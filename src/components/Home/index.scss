@@ -1,7 +1,4 @@
 .home-page-container{
-  .text-zone{
-  
-  }
   h1{
     color: white;
     font-size: 53px;
@@ -92,17 +89,17 @@
 
 .home-page-container-mobile{
   display: flex;
-  flex-direction: column; /* Stack items vertically for mobile */
-  align-items: center; /* Center items horizontally */
-  padding: 20px; /* Add padding to create space around the items */
+  flex-direction: column; 
+  align-items: center; 
+  padding: 20px; 
 
 
   .text-zone {
-    margin-bottom: 0px; /* Add margin below the text zone */
+    margin-bottom: 0px; 
   }
 
   #profilePic {
-    max-width: 225px; /* Adjust maximum width for the image */
+    max-width: 225px;
     margin-top: -25px;
   }
   h1{
