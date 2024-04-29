@@ -45,7 +45,11 @@ const Home = () => {
                             <br />
                             <AnimatedLetters letterClass={letterClass} strArray={jobArray} idx={22} />
                         </h1>
-                        <h2>HTML / CSS / JavaScript / React.js / Python / C# / Shopify Liquid</h2>
+                    </div>
+                    <div>
+                        <h2 className=''>HTML / CSS / JavaScript / React.js / Python / C# / Shopify Liquid</h2>
+                    </div>
+                    <div className='pt-3'>
                         <Link to="projects" className="flat-button">Checkout My Projects</Link>
                     </div>
                 </div>
