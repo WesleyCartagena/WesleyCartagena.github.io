@@ -58,7 +58,7 @@ const Projects = () => {
                     </div>
                 </Card>
                 <Card className='project-card text-light border border-light d-flex justify-content-center align-items-center'>
-                    <Card.Img variant="top" src={GuardiansCentral} />
+                    <Card.Img variant="top" src={pokeshop} />
                     <Card.Body className='text-center'>
                         <Card.Title>Pokemon Eccomerce Shop</Card.Title>
                         <Card.Text>
@@ -82,7 +82,7 @@ const Projects = () => {
                     </div>
                 </Card>
                 <Card className='project-card text-light border border-light d-flex justify-content-center align-items-center'>
-                    <Card.Img variant="top" src={GuardiansCentral} />
+                    <Card.Img variant="top" src={weatherapp} />
                     <Card.Body className='text-center'>
                         <Card.Title>Weather App</Card.Title>
                         <Card.Text>
@@ -106,7 +106,7 @@ const Projects = () => {
                     </div>
                 </Card>
                 <Card className='project-card text-light border border-light d-flex justify-content-center align-items-center'>
-                    <Card.Img variant="top" src={GuardiansCentral} />
+                    <Card.Img variant="top" src={keylogger} />
                     <Card.Body className='text-center'>
                         <Card.Title>Keylogger</Card.Title>
                         <Card.Text>
@@ -130,7 +130,7 @@ const Projects = () => {
                     </div>*/}
                 </Card>
                 <Card className='project-card text-light border border-light d-flex justify-content-center align-items-center'>
-                    <Card.Img variant="top" src={GuardiansCentral} />
+                    <Card.Img variant="top" src={packetsniffer} />
                     <Card.Body className='text-center'>
                         <Card.Title>Packet Sniffer</Card.Title>
                         <Card.Text>
