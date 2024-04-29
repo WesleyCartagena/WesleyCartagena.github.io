@@ -88,13 +88,14 @@
   align-items: center; /* Center items horizontally */
   padding: 20px; /* Add padding to create space around the items */
 
+
   .text-zone {
     margin-bottom: 20px; /* Add margin below the text zone */
-    text-align: center; /* Center text horizontally */
   }
 
   #profilePic {
-    max-width: 250px; /* Adjust maximum width for the image */
+    max-width: 225px; /* Adjust maximum width for the image */
+    margin-top: -25px;
   }
   h1{
     color: white;
