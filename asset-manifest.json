@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.d42d5892.css",
-    "main.js": "/static/js/main.25f4ae0f.js",
+    "main.css": "/static/css/main.a6b89205.css",
+    "main.js": "/static/js/main.bb0e092b.js",
     "static/js/453.3bb9a816.chunk.js": "/static/js/453.3bb9a816.chunk.js",
-    "static/media/keylogger.png": "/static/media/keylogger.de8d7da6965fdf8b0b74.png",
+    "static/media/keylogger.png": "/static/media/keylogger.ca15900307e161ced231.png",
     "static/media/GuardiansCentral.png": "/static/media/GuardiansCentral.4b24e0523bd230694d52.png",
     "static/media/Profile.png": "/static/media/Profile.44cd06f84e3f21a16db9.png",
-    "static/media/WeatherApp.png": "/static/media/WeatherApp.3bdf9467afdecfdc4d92.png",
-    "static/media/PokeShop.png": "/static/media/PokeShop.3c9ecf535c239c9574ad.png",
-    "static/media/wireshark.png": "/static/media/wireshark.7c8285a9690b9e3e1e02.png",
+    "static/media/WeatherApp.png": "/static/media/WeatherApp.73293c91c6173b20b61d.png",
+    "static/media/PokeShop.png": "/static/media/PokeShop.7cd94f2f3fce5174bc34.png",
     "static/media/cartagena.png": "/static/media/cartagena.b1881a432f983f3e0355.png",
+    "static/media/wireshark.png": "/static/media/wireshark.b609ffdfc9dd57ee8af0.png",
     "static/media/W.png": "/static/media/W.d0a14c9392eef85fc879.png",
     "static/media/helvetica-neu.ttf": "/static/media/helvetica-neu.8a19678078a6b21c8057.ttf",
     "static/media/LaBelleAurore.woff2": "/static/media/LaBelleAurore.a83c1c58fd7e43972e4a.woff2",
     "static/media/CoolveticaRg-Regular.woff2": "/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
     "index.html": "/index.html",
-    "main.d42d5892.css.map": "/static/css/main.d42d5892.css.map",
-    "main.25f4ae0f.js.map": "/static/js/main.25f4ae0f.js.map",
+    "main.a6b89205.css.map": "/static/css/main.a6b89205.css.map",
+    "main.bb0e092b.js.map": "/static/js/main.bb0e092b.js.map",
     "453.3bb9a816.chunk.js.map": "/static/js/453.3bb9a816.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d42d5892.css",
-    "static/js/main.25f4ae0f.js"
+    "static/css/main.a6b89205.css",
+    "static/js/main.bb0e092b.js"
   ]
 }
