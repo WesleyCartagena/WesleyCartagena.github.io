@@ -3,12 +3,9 @@ import LogoW from '../../assets/images/W.png'
 import LogoSubtitle from '../../assets/images/cartagena.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons'
-import { faHome, faUser,faDiagramProject} from '@fortawesome/free-solid-svg-icons'
-import { Link, NavLink } from 'react-router-dom'
-import Container from 'react-bootstrap/Container';
+import { Link } from 'react-router-dom'
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
 import {LinkContainer} from 'react-router-bootstrap'
 import React from "react"
 import { useState, useEffect } from 'react';

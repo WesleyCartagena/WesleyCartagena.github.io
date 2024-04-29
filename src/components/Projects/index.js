@@ -8,9 +8,6 @@ import keylogger from '../../assets/images/keylogger.png'
 import packetsniffer from '../../assets/images/wireshark.png'
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
-import ListGroup from 'react-bootstrap/ListGroup';
-
-
 
 const Projects = () => {
     const[letterClass,setLetterClass]= useState('text-animate')
