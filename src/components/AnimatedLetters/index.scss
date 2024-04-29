@@ -18,10 +18,17 @@
     color: #32CD30;
   }
 }
-  
+// WIll be deprecated in DART SASS 2.0
 @for $i from 1 through 35 {
   .text-animate._#{$i} {
     animation-delay: #{$i / 10}s;
   }
 }
-  
+/*
+@for $i from 1 through 35 {
+  .text-animate._#{$i} {
+    animation-delay: math.div($i, 10s);
+  }
+}
+USE THIS WHEN UPDATING TO DART SASS 2.0
+*/ 
