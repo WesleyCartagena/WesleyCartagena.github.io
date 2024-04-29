@@ -5,16 +5,18 @@ import About from './components/About'
 import Layout from './components/Layout'
 import Projects from './components/Projects'
 import './App.scss'
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './App.scss';
 
 function App() {
   return (
     <>
       <Routes>
         <Route path="/" element={<Layout />}>
-          <Route index element={<Home />} />
-          <Route path="about" element={<About/>}/>
+           <Route index element={<Home />} />
+           <Route path="about" element={<About/>}/>
           {/*<Route path="/contact" element={<Contact/>}/>*/}
-          <Route path="/Projects" element={<Projects/>}/>
+           <Route path="/Projects" element={<Projects/>}/>
         </Route>
       </Routes>
     </>

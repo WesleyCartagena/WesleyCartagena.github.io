@@ -1,195 +1,55 @@
-.container.projects-page{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    max-width: 100% !important;
-    overflow-x: hidden !important;
-      .text-zone{
-          position: relative;
-          top: 15%;
-          transform: translateY(-50%);
-          max-height: 90%;
-          text-align: center;
-          align-self: center;
-      }
-      h1{
-          color: white;
-          font-size: 53px;
-          margin: 0;
-          font-family: 'Coolvetica';
-          font-weight: 400;
-      }
-}
 
-.container.Projects{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    top: 25%;
-    .projects{
-        color:white ;
-        border:2px solid slategray;
-        background-color: #58181F;
-        width: 400px;
-        height: 600px;
-        padding: 15px;
-        border-radius: 10px;
+.projects-page-container{
+    .project-header-container{
+        margin-top: 100px;
         h1{
-            text-align: center;
-        }
-        h2{
-            text-align: center;
-        }
-        ul{
-            font-size: 15px;
-            margin-left: -10px;
-        }
 
-        img{
-            position: relative;
-            text-align: center;
-            max-width: 400px;
-        }
-        #pokeshop{
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            text-align: center;
-            max-width: 400px;
-            max-height: 245px;
-            margin: 0 0 0 55px;
-        }
-        #pokeh1{
-            font-size: 47px;
-        }
-        #keylogger{
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            text-align: center;
-            max-height: 245px;
-            margin: 0 0 0 55px;
-        }
-        #packetsniffer{
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            text-align: center;
-            min-height: 245px;
-        }
-        .flat-button {
             color: white;
-            font-size: 13px;
+            font-size: 53px;
+            margin: 0;
+            font-family: 'Coolvetica';
             font-weight: 400;
-            letter-spacing: 4px;
-            font-family: sans-serif;
-            text-decoration: none;
-            padding: 10px 18px;
-            border: 1px solid white;
-            margin-top: 25px;
-            float: left;
-            animation: fadeInAnimation 1s 1.8s backwards;
-            white-space: nowrap;
-        
-            &:hover {
-              background: white;
-              color: #333;
-            }}
-        .flat-button2{
-            color: white;
-            font-size: 13px;
-            font-weight: 400;
-            letter-spacing: 4px;
-            font-family: sans-serif;
-            text-decoration: none;
-            padding: 10px 18px;
-            border: 1px solid white;
-            margin-top: 25px;
-            margin-left: 125px;
-            float: left;
-            animation: fadeInAnimation 1s 1.8s backwards;
-            white-space: nowrap;
-        
-            &:hover {
-              background: white;
-              color: #333;
-            }
         }
     }
-    .projects#project1{
-        
-    }   
-    .projects#project2{
-
+    .flat-button{
+        font-size: 13px;
+        font-weight: 400;
+        letter-spacing: 4px;
+        font-family: sans-serif;
+        padding: 10px 18px;
+        border: 1px solid white;
+        margin-top: 25px;
+        float: left;
+        animation: fadeInAnimation 1s 1.8s backwards;
+        white-space: nowrap;
     }
     
-    .projects#project3{
-
+    .flat-button:hover,
+    .flat-button2:hover {
+        background: white;
+        color: #333;
     }
-    
-    .projects#project4{
+    .project-card{
+        width: 25rem; 
+        padding:10px;
+        background-color: #58181F;
+        margin-bottom: 15px;
+        margin-right: 15px;
+        margin-left: 15px;
     }
-}
-@media only screen and (max-width: 430px){
-    .container.Projects{
-        .projects{
-            width: 300px;
-            height: 525px;
-            h1{
-                font-size: 30px;
-            }
-            h2{
-                font-size: 15px;
-            }
-            ul{
-                font-size: 13px;
-            }
-    
-            img{
-                max-width: 300px;
-            }
-            #pokeshop{
-                max-width: 300px;
-                max-height: 220px;
-                margin: 0 0 0 10px;
-            }
-            #keylogger{
-                max-width: 300px;
-                max-height: 220px;
-                margin: 0 0 0 10px
-            }
-            #packetsniffer{
-                min-height: 210px;
-            }
-            #pokeh1{
-                font-size: 30px;
-            }
-            .flat-button{
 
-                font-size: 10px;
-                padding: 7px 15px;
-            }
-            .flat-button2{
-                margin-top: -30px;
-                margin-left: 150px;
-                font-size: 10px;
-                padding: 7px 15px;
-            }
+    /* Extra small devices (phones, 600px and down) */
+    @media only screen and (max-width: 600px) {
+        .project-header-container{
+            margin-top: 20px;
         }
     }
+    /* Small devices (portrait tablets and large phones, 600px and up) */
+    @media only screen and (min-width: 600px) {}
+    /* Medium devices (landscape tablets, 768px and up) */
+    @media only screen and (min-width: 768px) {}
+    /* Large devices (laptops/desktops, 992px and up) */
+    @media only screen and (min-width: 992px) {}
+    /* Extra large devices (large laptops and desktops, 1200px and up) */
+    @media only screen and (min-width: 1200px) {}
 }
-
-@media only screen and (min-width: 431) and (max-width: 600px) {
-    .container.projects-page{
-          .text-zone{
-            top: 13%;
-          }
-          h1{
-            font-size: 45px;
-          }
-    }
-
-    
-}
-

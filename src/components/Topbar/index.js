@@ -5,52 +5,82 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons'
 import { faHome, faUser,faDiagramProject} from '@fortawesome/free-solid-svg-icons'
 import { Link, NavLink } from 'react-router-dom'
+import Container from 'react-bootstrap/Container';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
+import NavDropdown from 'react-bootstrap/NavDropdown';
+import {LinkContainer} from 'react-router-bootstrap'
+import React from "react"
+import { useState, useEffect } from 'react';
 
 const Topbar = () => {
+    const [isMobile, setIsMobile] = useState(false);
+
+    useEffect(() => {
+      const handleResize = () => {
+        setIsMobile(window.innerWidth <= 575);
+      };
+
+      handleResize(); // Call initially to set isMobile state
+      window.addEventListener('resize', handleResize);
+
+      return () => {
+        window.removeEventListener('resize', handleResize);
+      };
+    }, []);
     return(
-        <div className='nav-bar'>
+      <Navbar className='wc-navbar' expand='sm'>
             <Link className='logo' to = '/'>
-                <img className="letter-logo" src={LogoW} alt="Logo"/>
+                <img className="letter-logo" alt="" width="30" src={LogoW} height="25"/>
                 <img className="sub-logo" src={LogoSubtitle} alt="Cartagena"/>
             </Link>
-            <nav>
-                <NavLink className="nav-links"  exact="true" activeclassname="active" id="home-link" to="/">
-                    <FontAwesomeIcon icon={faHome} color="#4d4d4e"/>
-                </NavLink>
-                <NavLink className="nav-links"  exact="true" activeclassname="active" id="about-link" to="about">
-                    <FontAwesomeIcon icon={faUser} color="#4d4d4e"/>
-                </NavLink>
-                {/*<NavLink className="nav-links"  exact="true" activeclassname="active" id="contact-link" to="contact">
-                    <FontAwesomeIcon icon={faEnvelope} color="#4d4d4e"/>
-                </NavLink>*/}
-                <NavLink className="nav-links" exact="true" activeclassname="active" id="project-link" to="Projects">
-                    <FontAwesomeIcon icon={faDiagramProject} color="#4d4d4e"/>
-                </NavLink>
-            </nav>
-            <div className="Social-List">
-            <ul id="horizontal-list">
-                <li>
-                    <a id="linkedin"
-                        href="https://www.linkedin.com/in/wesley-cartagena-870603126/"
-                        target="_blank"
-                        rel="noreferrer"
-                    >
-                        <FontAwesomeIcon icon={faLinkedin} color="#4d4d4e" />
-                    </a>
-                </li>
-                
-                <li>
-                    <a id="github"
-                        href="https://github.com/wesleycartagena"
-                        target="_blank"
-                        rel="noreferrer"
-                    >
-                        <FontAwesomeIcon icon={faGithub} color="#4d4d4e" />
-                    </a>
-                </li>
-            </ul>
-            </div>
-        </div>
+          <Navbar.Toggle aria-controls="basic-navbar-nav" style={{  background:'#32CD30', color:'white', marginRight:'15px' ,marginBottom:'10px'}} />
+          <Navbar.Collapse className='text-center' id="basic-navbar-nav">
+            <Nav className='navbar-middle justify-content-start'>
+              <Nav.Item className='navbar-middle-item p-1'>
+                <LinkContainer to="/">
+                  <Nav.Link className='navbar-middle-item-text' id="home-link">HOME</Nav.Link>
+                </LinkContainer>
+              </Nav.Item>
+              <Nav.Item className='navbar-middle-item p-1'>
+                <LinkContainer to="/about">
+                  <Nav.Link className='navbar-middle-item-text' id="about-link">ABOUT</Nav.Link>
+                </LinkContainer>
+              </Nav.Item>
+              <Nav.Item className='navbar-middle-item p-1'>
+                <LinkContainer to="/projects">
+                  <Nav.Link className='navbar-middle-item-text' id="project-link">PROJECTS</Nav.Link>
+                </LinkContainer>
+              </Nav.Item>
+            </Nav>
+            {/* Render LinkedIn and GitHub links inside collapse for mobile */}
+            {isMobile && (
+              <Nav className='navbar-middle justify-content-end'>
+                <Nav.Item className='navbar-middle-item pt-2'>
+                  <Link className='text-decoration-none navbar-middle-item-text' to="https://www.linkedin.com/in/wesley-cartagena-870603126/" target="_blank" rel="noreferrer" id="linkedin-link">LINKEDIN</Link>
+                </Nav.Item>
+                <Nav.Item className='navbar-middle-item pt-3'>
+                  <Link className='text-decoration-none navbar-middle-item-text' to="https://github.com/wesleycartagena" target="_blank" rel="noreferrer" id="github-link">GITHUB</Link>
+                </Nav.Item>
+              </Nav>
+            )}
+          </Navbar.Collapse>
+          {/* Render LinkedIn and GitHub links outside collapse for desktop */}
+          {!isMobile && (
+            <Nav className='navbar-middle justify-content-end'>
+              <Link className='navbar-end' to="https://www.linkedin.com/in/wesley-cartagena-870603126/" target="_blank" rel="noreferrer">
+                <Navbar.Brand className='navbar-end-icons' id="linkedin">
+                  <FontAwesomeIcon icon={faLinkedin} color="#4d4d4e" />
+                </Navbar.Brand>
+              </Link>
+              <Link className='navbar-end' to="https://github.com/wesleycartagena" target="_blank" rel="noreferrer">
+                <Navbar.Brand className='navbar-end-icons' id="github">
+                  <FontAwesomeIcon icon={faGithub} color="#4d4d4e" />
+                </Navbar.Brand>
+              </Link>
+            </Nav>
+          )}
+      </Navbar>
     ) 
 }
 export default Topbar

@@ -15,8 +15,8 @@ const About = () => {
         return () => clearTimeout()
     }, []);
     return(
-        <section className ='container about-page'>
-                <div className='about' id="about-zone">
+        <div className ='about-page-container d-flex flex-column text-center align-items-center justify-content-center'>
+                <div className='about-text' id="about-zone">
                     <h1>
                         <AnimatedLetters letterClass={letterClass}
                             strArray={aboutArray} 
@@ -29,15 +29,13 @@ const About = () => {
                     <p>Today I work as an IT Developer using code to help drive business solutions. </p>
                 
                 </div>
-                <div className="about" id="tech-stack">
+                <div className="about-tech-stack" id="tech-stack">
                     <h1>
                         <AnimatedLetters letterClass={letterClass}
                             strArray={techStackArray} 
                             idx={15}
                         />
                     </h1>
-  
-    
                         <div className="icons">
                         <FontAwesomeIcon icon={faHtml5} color="#FF5733" />
                         </div>
@@ -69,9 +67,8 @@ const About = () => {
                         <div className="icons">
                         <FontAwesomeIcon icon={faJira} color="#0044FF" />
                         </div>
-    
                 </div>
-        </section>
+        </div>
     );
 }
 

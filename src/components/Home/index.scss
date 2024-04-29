@@ -1,35 +1,4 @@
-.container.home-page{
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: flex-start;
-  align-content: center;
-  max-width: 100% !important;
-  overflow-x: hidden !important;
-  
-    
-  .text-zone{
-    position: relative;
-    
-
-  }
-  .text-zone#pic{
-    position: absolute;
-    max-width: 300px;
-    top: 50%;
-    left: 70%;
-    margin: -170px 0 0 -25px;
-
-  }
-  .text-zone#text{
-    position: absolute;
-    left: 1%;
-    top: 50%;
-    transform: translateY(-50%);
-    max-height: 90%;
-    max-width: 475px;
-  }
-
+.home-page-container{
   h1{
     color: white;
     font-size: 53px;
@@ -65,161 +34,130 @@
       color: #333;
     }
   }
-  @media only screen and (max-width: 320px) {
-    .text-zone#text{
-      position: absolute;
-      left: 1%;
-      top: 50%;
-      transform: translateY(-50%);
-      max-height: 90%;
-      max-width: 475px;
+  /* Extra small devices (phones, 600px and down) */
+  @media only screen and (max-width: 600px) {}
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) {}
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+    #profilePic{
+      max-width: 250px;
+      margin-right: 20px;
     }
-    .text-zone#pic{
-      position: absolute;
-      max-width: 150px;
-      top: 37%;
-      left: 35%;
-      margin: -170px 0 0 -25px;
-  
+    #text{
+      margin-left: 20px;
     }
     h1{
-      font-size: 35px;
-    }
-    h2{
-      font-size: 8px;
-    }
-  }
-  @media only screen and (min-width: 321px) and (max-width: 374px) {
-    .text-zone#text{
-      position: absolute;
-      left: 1%;
-      top: 55%;
-      transform: translateY(-50%);
-      max-height: 90%;
-      max-width: 475px;
-    }
-    .text-zone#pic{
-      position: absolute;
-      max-width: 170px;
-      top: 35%;
-      left: 35%;
-      margin: -170px 0 0 -25px;
-  
-    }
-    h1{
-      font-size: 38px;
-    }
-    h2{
-      font-size: 8px;
-    }
-  }
-  @media only screen and (width: 375px){
-    .text-zone#text{
-      position: absolute;
-      left: 1%;
-      top: 55%;
-      transform: translateY(-50%);
-      max-height: 90%;
-      max-width: 475px;
-    }
-    .text-zone#pic{
-      position: absolute;
-      max-width: 170px;
-      top:40%;
-      left: 35%;
-      margin: -170px 0 0 -25px;
-  
-    }
-    h1{
-      font-size: 38px;
-    }
-    h2{
-      font-size: 8px;
-    }
-  }
-  @media only screen and (min-width: 376px) and (max-width: 399px) {
-    .text-zone#text{
-      position: absolute;
-      left: 1%;
-      top: 58%;
-      transform: translateY(-50%);
-      max-height: 90%;
-      max-width: 475px;
-    }
-    .text-zone#pic{
-      position: absolute;
-      max-width: 170px;
-      top: 38%;
-      left: 35%;
-      margin: -170px 0 0 -25px;
-  
-    }
-    h1{
-      font-size: 38px;
-    }
-    h2{
-      font-size: 8px;
-    }
-  }
-  @media only screen and (min-width: 400px) and (max-width: 600px) {
-    .text-zone#text{
-      position: absolute;
-      left: 1%;
-      top: 60%;
-      transform: translateY(-50%);
-      max-height: 90%;
-      max-width: 475px;
-    }
-    .text-zone#pic{
-      position: absolute;
-      max-width: 200px;
-      top: 35%;
-      left: 33%;
-      margin: -170px 0 0 -25px;
-  
-    }
-    h1{
-      font-size: 45px;
+      font-size: 40px;
     }
     h2{
       font-size: 10px;
     }
   }
-  @media only screen and (min-width: 601px) and (max-width: 780px) {
-    .text-zone#text{
-      position: absolute;
-      left: 1%;
-      top: 50%;
-      transform: translateY(-50%);
-      max-height: 90%;
-      max-width: 475px;
-      h1{
-        font-size: 38px;
-      }
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+    #profilePic{
+      max-width: 300px;
+      margin-right: 50px;
     }
-    .text-zone#pic{
-      position: absolute;
-      max-width: 205px;
-      top: 50%;
-      left: 65%;
-
+    #text{
+      margin-left: 50px;
     }
   }
-  @media only screen and (min-width: 781px) and (max-width: 950px) {
-    .text-zone#text{
-      position: absolute;
-      left: 1%;
-      top: 50%;
-      transform: translateY(-50%);
-      max-height: 90%;
-      max-width: 475px;
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+    #profilePic{
+      max-width: 376px;
+      margin-right: 50px;
     }
-    .text-zone#pic{
-      position: absolute;
-      max-width: 275px;
-      top: 50%;
-      left: 65%;
+    #text{
+      margin-left: 50px;
+    }
+    h1{
+      font-size: 50px;
+    }
+  }
+  @media only screen and (min-width: 1600px) {
+    #profilePic{
+      margin-right: 200px;
+    }
+    #text{
+      margin-left: 200px;
+    }
+  }
+}
 
+.home-page-container-mobile{
+  display: flex;
+  flex-direction: column; 
+  align-items: center; 
+  padding: 20px; 
+
+
+  .text-zone {
+    margin-bottom: 0px; 
+  }
+
+  #profilePic {
+    max-width: 225px;
+    margin-top: -25px;
+  }
+  h1{
+    color: white;
+    font-size: 30px;
+    font-family: 'Coolvetica';
+    font-weight: 400;
+  }
+  h2{
+    text-align: center;
+    color: #8d8d8d;
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 11px;
+    font-family: sans-serif;
+    letter-spacing: 3px;
+    animation: fadeIn 1s 1.8s backwards;
+  }
+  .flat-button {
+    color: #32CD30;
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 4px;
+    font-family: sans-serif;
+    text-decoration: none;
+    padding: 10px 18px;
+    border: 1px solid #32CD30;
+    float: left;
+    animation: fadeInAnimation 1s 1.8s backwards;
+    white-space: nowrap;
+
+    &:hover {
+      background: #32CD30;
+      color: #333;
+    }
+  }
+  #profilePic{
+    padding-top: 50px;
+  }
+  @media only screen and (max-width: 600px) {
+  }
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) {}
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+
+  }
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+
+  }
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+
+  }
+  @media only screen and (min-width: 576px) and (max-width: 767px) {
+    #profilePic {
+      margin-top: 0px;
     }
   }
 }

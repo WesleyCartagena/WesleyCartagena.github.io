@@ -1,20 +1,9 @@
 html {
-  font-size: 62.5%;
-  overflow: hidden;
-  ::-webkit-scrollbar { display: none; }
-  overflow-y: overlay;
-
 
 }
 
 body {
-  margin: 0;
-  font: 300 11px/1.4 'Helvetica Neue', sans-serif;
-  color: #444;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
   /*background: #022c43;*/
   background: #051427;
-  display: block;
 }
 
