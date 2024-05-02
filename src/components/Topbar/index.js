@@ -26,7 +26,7 @@ const Topbar = () => {
       };
     }, []);
     return(
-      <Navbar className='wc-navbar' expand='sm'>
+      <Navbar className='wc-navbar' expand='sm' collapseOnSelect>
             <Link className='logo' to = '/'>
                 <img className="letter-logo" alt="" width="30" src={LogoW} height="25"/>
                 <img className="sub-logo" src={LogoSubtitle} alt="Cartagena"/>
