@@ -58,20 +58,20 @@
   @media only screen and (min-width: 992px) {
     #profilePic{
       max-width: 300px;
-      margin-right: 50px;
+      margin-right: 100px;
     }
     #text{
-      margin-left: 50px;
+      margin-left: 100px;
     }
   }
   /* Extra large devices (large laptops and desktops, 1200px and up) */
   @media only screen and (min-width: 1200px) {
     #profilePic{
-      max-width: 376px;
-      margin-right: 50px;
+      max-width: 350px;
+      margin-right: 150px;
     }
     #text{
-      margin-left: 50px;
+      margin-left: 150px;
     }
     h1{
       font-size: 50px;
@@ -139,22 +139,7 @@
   #profilePic{
     padding-top: 50px;
   }
-  @media only screen and (max-width: 600px) {
-  }
-  /* Small devices (portrait tablets and large phones, 600px and up) */
-  @media only screen and (min-width: 600px) {}
-  /* Medium devices (landscape tablets, 768px and up) */
-  @media only screen and (min-width: 768px) {
 
-  }
-  /* Large devices (laptops/desktops, 992px and up) */
-  @media only screen and (min-width: 992px) {
-
-  }
-  /* Extra large devices (large laptops and desktops, 1200px and up) */
-  @media only screen and (min-width: 1200px) {
-
-  }
   @media only screen and (min-width: 576px) and (max-width: 767px) {
     #profilePic {
       margin-top: 0px;

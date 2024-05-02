@@ -2,6 +2,10 @@ import './index.scss';
 import { useEffect, useState } from 'react'
 import AnimatedLetters from '../AnimatedLetters/Index'
 import GuardiansCentral from '../../assets/images/GuardiansCentral.png'
+import LibraryRobot from '../../assets/images/Bryan-and-Wes-Photo.jpg'
+import ASC from '../../assets/images/asc-800x450.png'
+import Ue from '../../assets/images/ue.png'
+import si from '../../assets/images/spaceinvaders.png'
 import pokeshop from '../../assets/images/PokeShop.png'
 import weatherapp from '../../assets/images/WeatherApp.png'
 import keylogger from '../../assets/images/keylogger.png'
@@ -121,10 +125,6 @@ const Projects = () => {
                                 Learned the importance of an anti-virus and good Cyber-Security Practices
                             </li>
                         </ul>
-                    {/*<div className="card-buttons d-flex justify-content-center">
-                        <Button className='flat-button mx-4' variant="outline-light">Preview</Button>
-                        <Button className='flat-button mx-4' variant="outline-light">Source Code</Button>
-                    </div>*/}
                 </Card>
                 <Card className='project-card text-light border border-light d-flex justify-content-center align-items-center'>
                     <Card.Img variant="top" src={packetsniffer} />
@@ -145,10 +145,92 @@ const Projects = () => {
                                 Learned how this could be used to detect suspicious activity and bad actors in a network
                             </li>
                         </ul>
-                    {/*<div className="card-buttons d-flex justify-content-center">
-                        <Button className='flat-button mx-4' variant="outline-light">Preview</Button>
-                        <Button className='flat-button mx-4' variant="outline-light">Source Code</Button>
-                    </div>*/}
+                </Card>
+                <Card className='project-card text-light border border-light d-flex justify-content-center align-items-center'>
+                    <Card.Img variant="top" src={LibraryRobot} />
+                    <Card.Body className='text-center'>
+                        <Card.Title>Library Robot</Card.Title>
+                        <Card.Text>
+                        </Card.Text>
+                    </Card.Body>
+                    <ul className='text-start'>
+                            <li>
+                                Built and programmed the SUNY New Paltz Library Robot, to serve as a librarian assistant by going down the library aisles and scanning them for missing or misplaced books that are then sent to a website to inform the librarian
+                            </li>
+                            <li>
+                                Programmed using a Raspberry Pi and Python for motor functions and the OpenCV library for book detection
+                            </li>
+                            <li>
+                                Contributed to the server code which used Java to connect the robot to the school database that sent information to the website
+                            </li>
+                    </ul>
+                </Card>
+                <Card className='project-card text-light border border-light d-flex justify-content-center align-items-center'>
+                    <Card.Img variant="top" src={Ue} />
+                    <Card.Body className='text-center'>
+                        <Card.Title>The Quest of Adra</Card.Title>
+                        <Card.Text>
+                            A game about a soldier on a quest to steal a sword built using the Unreal Engine 4
+                        </Card.Text>
+                    </Card.Body>
+                    <ul className='text-start '>
+                            <li>
+                                Developed a Top-Down 3-D game using the Unreal Engine 4 about a soldier on a quest to steal a mythical sword
+                            </li>
+                            <li>
+                                Worked on character movement/animation, AI, character interaction, and sprite creation
+                            </li>
+                            <li>
+                                Directed a team of 3, by assigning them their roles and responsibilities as well as making a schedule for the group
+                            </li>
+                        </ul>
+                    <div className="card-buttons d-flex justify-content-center">
+                        <Button  href="https://github.com/WesleyCartagena/SEGAMEv0.2/tree/master" target="_blank" rel="noreferrer" className='flat-button mx-4' variant="outline-light">Source Code</Button>
+                    </div>
+                </Card>
+                <Card className='project-card text-light border border-light d-flex justify-content-center align-items-center'>
+                    <Card.Img variant="top" src={ASC} />
+                    <Card.Body className='text-center'>
+                        <Card.Title>BSW House</Card.Title>
+                        <Card.Text>
+                            A automated home project that used a website to control a model house
+                        </Card.Text>
+                    </Card.Body>
+                    <ul className='text-start py-4'>
+                            <li>
+                                Built a model house using foam, an arduino, a raspberry pi, and a relay
+                            </li>
+                            <li>
+                                Built a website using Javascipt and Dweet.io that would send information to the model home
+                            </li>
+                            <li>
+                                Presented this project in front of a large group of Goldman Sachs Employees
+                            </li>
+                    </ul>
+                    <div className="card-buttons d-flex justify-content-center">
+                        <Button href="https://www.goldmansachs.com/careers/blog/posts/all-star-code-2016.html" target="_blank" rel="noreferrer" className='flat-button' variant="outline-light">Goldman Sachs</Button>
+                        <Button href="https://www.businessinsider.com/goldman-sachs-summer-immersion-program-with-all-star-code-2016-8" target="_blank" rel="noreferrer" className='flat-button' variant="outline-light">Business Insider</Button>
+                    </div>
+                </Card>
+                <Card className='project-card text-light border border-light d-flex justify-content-center align-items-center'>
+                    <Card.Img variant="top" src={si} />
+                    <Card.Body className='text-center'>
+                        <Card.Title>Space Invaders(Recreation)</Card.Title>
+                        <Card.Text>
+                            Recreated the Retro game space invaders using Javascript and the p5.js library
+                        </Card.Text>
+                        <ul className='text-start py-4'>
+                            <li>
+                                This project is what kicked off my career in programming and it was how I fell in love with code
+                            </li>
+                            <li>
+                                It was one of the best personal projects built in my cohort of All Star Code
+                            </li>
+                            <li>
+                                It was built using pure Javascript and the p5.js library
+                            </li>
+                        </ul>
+                    </Card.Body>
                 </Card>
             </div>
         </div>
